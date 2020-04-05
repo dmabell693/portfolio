@@ -12,7 +12,7 @@ nav {
 footer {
     background-color: #666666;
     color: #ccc4ae;
-    border-top: 8px solid #4aaaa5;
+    border-top: 8px solid #dab903;
     padding: 0.5rem;
     font-size: small;
 }
@@ -23,7 +23,7 @@ footer {
 }
 
 .navbar-brand {
-    background-color: #4aaaa5;
+    background-color: #dab903;
     color: #ffffff !important;
     padding: 1rem 1.5rem 1rem 1.75rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -141,7 +141,7 @@ p {
 }
 
 .project-header {
-    background-color: #4aaaa5;
+    background-color: #dab903;
     color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
@@ -153,7 +153,7 @@ p {
 }
 
 .project-header:hover {
-    background-color: #4882b8;
+    background-color: #dab903;
 }
 
 #repo-links {
@@ -352,7 +352,7 @@ form {
 }
 
 #submitButton {
-    background-color: #4aaaa5;
+    background-color: #dab903;
     color: #ffffff;
 }
 
