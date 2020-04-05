@@ -1,5 +1,5 @@
 body {
-    background-image: url(../images/gravel/gravel.png);
+    background-image: url(../images/papyrus-dark/papyrus-dark.png);
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
 }
@@ -140,7 +140,7 @@ p {
     opacity: 50%;
 }
 
-h3 {
+.project-header {
     background-color: #4aaaa5;
     color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -152,48 +152,196 @@ h3 {
     bottom: 281px;
 }
 
-h3:hover {
+.project-header:hover {
     background-color: #4882b8;
 }
 
-@media screen and (min-width: 992px) {
-    h3 {
-        width: 360px;
+#repo-links {
+    background-color: #ccc4ae;
+    height: 221.48px;
+    width: 345px;
+    position: relative;
+    top: 48px;
+}
+
+@media screen and (min-width: 1199px) {
+    .project-header {
+        width: 450px;
+        position: relative;
+        bottom: 337px;
     }
     .col-5 {
         padding-left: 0;
         padding-top: 3rem;
+        padding-right: 0;
+        margin-right: 35px;
+    }
+    #repo-links {
+        height: 276.86px;
+        position: relative;
+        top: 48px;
+    }
+    #link-header {
+        position: relative;
+        bottom: 180px;
+    }
+}
+
+@media screen and (max-width: 1198px) {
+    .project-header {
+        width: 375px;
+        position: relative;
+        bottom: 291px;
+    }
+    .col-5 {
+        padding-left: 0;
+        padding-top: 3rem;
+        padding-right: 0;
+        margin-right: 35px;
+    }
+    #repo-links {
+        height: 230.7px;
+        width: 360px;
+        position: relative;
+        top: 48px;
+    }
+    #link-header {
+        position: relative;
+        bottom: 181px;
     }
 }
 
 @media screen and (max-width: 992px) {
-    h3 {
+    .project-header {
         padding: 15px 0;
+        width: 275px;
         position: relative;
-        bottom: 65px;
+        bottom: 219px;
+    }
+    .col-5 {
+        padding-left: 0;
+        padding-top: 3rem;
+        padding-right: 0;
+        margin-right: 35px;
+    }
+    #repo-links {
+        height: 169.19px;
+        width: 245px;
+        position: relative;
+        top: 48px;
+        padding-top: 30px;
+    }
+    #link-header {
+        position: relative;
+        bottom: 152px;
     }
 }
 
-@media screen and (max-width: 768px) {
-    h3 {
+@media screen and (max-width: 767px) {
+    .project-header {
         padding: 10px 0;
+        width: 200px;
         position: relative;
-        bottom: 50px;
+        bottom: 163px;
+    }
+    .col-5 {
+        padding-left: 0;
+        padding-top: 3rem;
+        padding-right: 0;
+        margin-right: 35px;
+    }
+    #repo-links {
+        height: 123.05px;
+        width: 170px;
+        position: relative;
+        top: 48px;
+        padding-top: 25px;
+        font-size: .75rem;
+    }
+    #link-header {
+        position: relative;
+        bottom: 119px;
     }
 }
-@media screen and (max-width: 576px) {
-    h3 {
+@media screen and (max-width: 574px) {
+    .project-header {
         padding: 5px 0;
+        width: 211.66px;
         position: relative;
-        bottom: 35px;
+        bottom: 160px;
+    }
+    .col-5 {
+        padding-left: 0;
+        padding-top: 3rem;
+        padding-right: 0;
+        margin-right: 25px;
+    }
+    #repo-links {
+        height: 130.22px;
+        width: 170px;
+        position: relative;
+        top: 48px;
+        padding-top: 25px;
+        font-size: .75rem;
+    }
+    #link-header {
+        position: relative;
+        bottom: 109px;
     }
 }
 
-@media screen and (max-width: 350px) {
-    h3 {
+@media screen and (max-width: 415px) {
+    .project-header {
         padding: 0;
+        width: 147.5px;
         position: relative;
-        bottom: 25px;
+        bottom: 111px;
+    }
+    .col-5 {
+        padding-left: 0;
+        padding-top: 2rem;
+        padding-right: 0;
+        margin-right: 15px;
+    }
+    #repo-links {
+        height: 89.72px;
+        width: 170px;
+        position: relative;
+        top: 32px;
+        padding-top: 15px;
+        font-size: .75rem;
+    }
+    #link-header {
+        position: relative;
+        bottom: 90px;
+    }
+}
+
+@media screen and (max-width: 316px) {
+    .project-header {
+        padding: 0;
+        width: 107.5px;
+        position: relative;
+        bottom: 79px;
+        font-size: .65rem;
+    }
+    .col-5 {
+        padding-left: 0;
+        padding-top: 2rem;
+        padding-right: 0;
+        margin-right: 15px;
+    }
+    #repo-links {
+        height: 66.3px;
+        width: 170px;
+        position: relative;
+        top: 32px;
+        padding-top: 10px;
+        font-size: .65rem;
+    }
+    #link-header {
+        position: relative;
+        bottom: 68px;
     }
 }
 
