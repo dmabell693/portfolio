@@ -5,13 +5,22 @@ body {
 }
 
 nav {
-    background-color: #ffffff;
+    background-color: #323330;
     border-bottom: 2px solid #cccccc;
 }
 
+a {
+    color: #dab903;
+}
+
+a:hover {
+    opacity: 50%;
+    color: #dab903;
+}
+
 footer {
-    background-color: #666666;
-    color: #ccc4ae;
+    background-color: #323330;
+    color: #dab903;
     border-top: 8px solid #dab903;
     padding: 0.5rem;
     font-size: small;
@@ -24,7 +33,7 @@ footer {
 
 .navbar-brand {
     background-color: #dab903;
-    color: #ffffff !important;
+    color: #323330 !important;
     padding: 1rem 1.5rem 1rem 1.75rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
@@ -43,15 +52,30 @@ footer {
 #left-nav {
     border-right: 1px solid #cccccc;
     padding-right: 24px;
+    color: #dab903;
+}
+
+#left-nav:hover {
+    opacity: 50%;
 }
 
 #center-nav {
     border-right: 1px solid #cccccc;
     padding: 0 24px;
+    color: #dab903;
+}
+
+#center-nav:hover {
+    opacity: 50%;
 }
 
 #right-nav {
     padding-left: 24px;
+    color: #dab903;
+}
+
+#right-nav:hover {
+    opacity: 50%;
 }
 
 #card-row {
@@ -78,7 +102,7 @@ p {
 }
 
 .container {
-    background-color: #ffffff;
+    background-color: #323330;
     padding-left: 0;
     padding-right: 0;
 }
@@ -108,8 +132,8 @@ p {
 }
 
 #content-header {
-    color: #4aaaa5 !important;
-    background-color: #ffffff;
+    color: #dab903 !important;
+    background-color: #323330;
     padding-left: 0;
     padding-top: 2rem;
 }
@@ -153,11 +177,11 @@ p {
 }
 
 .project-header:hover {
-    background-color: #dab903;
+    opacity: 50%;
 }
 
 #repo-links {
-    background-color: #ccc4ae;
+    background-color: #ffffff;
     height: 221.48px;
     width: 345px;
     position: relative;
@@ -351,6 +375,10 @@ form {
     padding-bottom: 2rem;
 }
 
+label {
+    color: #dab903;
+}
+
 #submitButton {
     background-color: #dab903;
     color: #ffffff;
@@ -358,5 +386,5 @@ form {
 
 #submitButton:hover {
     color: #ffffff;
-    background-color: #4882b8;
+    opacity: 50%;
 }
