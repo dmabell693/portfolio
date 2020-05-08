@@ -10,12 +10,11 @@ nav {
 }
 
 a {
-    color: #dab903;
+    color: #ffffff;
 }
 
 a:hover {
-    opacity: 50%;
-    color: #dab903;
+    color: #323330;
 }
 
 footer {
@@ -97,6 +96,10 @@ footer {
 
 /* END NAVBAR SPECIFIC STYLING */
 
+h3 {
+    font-size: 24px;
+}
+
 p {
     line-height: 2rem;
 }
@@ -109,10 +112,10 @@ p {
 
 .content-container {
     background-color: #323330;
-    opacity: 85%;
+    /* opacity: 85%; */
     padding-left: 30px;
     padding-right: 30px;
-    margin-bottom: 4rem;
+    /* margin-bottom: 4rem; */
 }
 
 .row {
@@ -162,6 +165,30 @@ p {
 
 .hover-outline:hover {
     opacity: 50%;
+}
+
+.card-header, .card-footer {
+    background-color: #d1d0c7;
+    color: #323330;
+}
+
+.card-header {
+    /* background-color: #dab903; */
+    /* color: #ffffff; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: normal;
+    font-size: medium;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.card-footer {
+    padding: 0;
+    /* background-color: #dab903; */
+    /* color: #ffffff; */
 }
 
 .project-header {
