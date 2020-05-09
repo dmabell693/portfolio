@@ -10,11 +10,12 @@ nav {
 }
 
 a {
-    color: #ffffff;
+    color: #323330;
 }
 
 a:hover {
     color: #323330;
+    opacity: 50%;
 }
 
 footer {
@@ -168,9 +169,13 @@ p {
 }
 
 .card-header, .card-footer {
-    background-color: #d1d0c7;
+    background-color: #dab903;
     color: #323330;
 }
+
+/* .olive-green { */
+    /* background-color: olivedrab;
+} */
 
 .card-header {
     /* background-color: #dab903; */
