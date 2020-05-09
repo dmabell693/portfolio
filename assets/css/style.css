@@ -152,9 +152,9 @@ p {
 
 /* PORTFOLIO-SPECIFIC CSS */
 
-.col-5 {
+/* .col-5 {
     margin-right: 15px;
-}
+} */
 
 /* .portfolio-boxes {
     width: 300px;
@@ -195,7 +195,7 @@ p {
     /* background-color: #dab903; */
     /* color: #ffffff; */
 }
-
+/* 
 .project-header {
     background-color: #dab903;
     color: #ffffff;
@@ -510,7 +510,7 @@ p {
         position: relative;
         bottom: 68px;
     }
-}
+} */
 
 /* CONTACT SPECIFIC CSS */
 
