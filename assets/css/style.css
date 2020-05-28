@@ -45,8 +45,16 @@ footer {
     padding-bottom: 0;
 }
 
+.card-title {
+    padding-left: 1rem;
+}
+
 .fixed-bottom {
     height: 2.5rem;
+}
+
+.profile-link {
+    color: #dab903;
 }
 
 #left-nav {
@@ -152,18 +160,6 @@ p {
 
 /* PORTFOLIO-SPECIFIC CSS */
 
-/* .col-5 {
-    margin-right: 15px;
-} */
-
-/* .portfolio-boxes {
-    width: 300px;
-    height: 250px;
-    background-color: #cccccc;
-    margin: 20px 30px 20px 0;
-    float: left;
-} */
-
 .hover-outline:hover {
     opacity: 50%;
 }
@@ -172,10 +168,6 @@ p {
     background-color: #dab903;
     color: #323330;
 }
-
-/* .olive-green { */
-    /* background-color: olivedrab;
-} */
 
 .card-header {
     /* background-color: #dab903; */
@@ -195,322 +187,6 @@ p {
     /* background-color: #dab903; */
     /* color: #ffffff; */
 }
-/* 
-.project-header {
-    background-color: #dab903;
-    color: #ffffff;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    font-weight: normal;
-    font-size: medium;
-    padding: 20px 0;
-    position: relative;
-    bottom: 281px;
-}
-
-.project-header:hover {
-    opacity: 50%;
-}
-
-#repo-links {
-    background-color: #ffffff;
-    height: 221.48px;
-    width: 345px;
-    position: relative;
-    top: 48px;
-}
-
-@media screen and (min-width: 1199px) {
-    .project-header {
-        width: 450px;
-        position: relative;
-        bottom: 337px;
-    }
-    .col-5 {
-        padding-left: 0;
-        padding-top: 3rem;
-        padding-right: 0;
-        margin-right: 35px;
-    }
-    #repo-links {
-        height: 276.86px;
-        position: relative;
-        top: 48px;
-    }
-    #link-header {
-        position: relative;
-        bottom: 180px;
-    }
-}
-
-@media screen and (max-width: 1198px) {
-    .project-header {
-        width: 375px;
-        position: relative;
-        bottom: 291px;
-    }
-    .col-5 {
-        padding-left: 0;
-        padding-top: 3rem;
-        padding-right: 0;
-        margin-right: 35px;
-    }
-    #repo-links {
-        height: 230.7px;
-        width: 360px;
-        position: relative;
-        top: 48px;
-    }
-    #link-header {
-        position: relative;
-        bottom: 181px;
-    }
-}
-
-@media screen and (max-width: 992px) {
-    .project-header {
-        padding: 15px 0;
-        width: 275px;
-        position: relative;
-        bottom: 219px;
-    }
-    .col-5 {
-        padding-left: 0;
-        padding-top: 3rem;
-        padding-right: 0;
-        margin-right: 35px;
-    }
-    #repo-links {
-        height: 169.19px;
-        width: 245px;
-        position: relative;
-        top: 48px;
-        padding-top: 30px;
-    }
-    #link-header {
-        position: relative;
-        bottom: 152px;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .project-header {
-        padding: 10px 0;
-        width: 200px;
-        position: relative;
-        bottom: 163px;
-    }
-    .col-5 {
-        padding-left: 0;
-        padding-top: 3rem;
-        padding-right: 0;
-        margin-right: 35px;
-    }
-    #repo-links {
-        height: 123.05px;
-        width: 170px;
-        position: relative;
-        top: 48px;
-        padding-top: 25px;
-        font-size: .75rem;
-    }
-    #link-header {
-        position: relative;
-        bottom: 119px;
-    }
-}
-@media screen and (max-width: 574px) {
-    .project-header {
-        padding: 5px 0;
-        width: 211.66px;
-        position: relative;
-        bottom: 160px;
-    }
-    .col-5 {
-        padding-left: 0;
-        padding-top: 3rem;
-        padding-right: 0;
-        margin-right: 25px;
-    }
-    #repo-links {
-        height: 130.22px;
-        width: 170px;
-        position: relative;
-        top: 48px;
-        padding-top: 25px;
-        font-size: .75rem;
-    }
-    #link-header {
-        position: relative;
-        bottom: 109px;
-    }
-}
-
-@media screen and (max-width: 414px) {
-    .project-header {
-        padding: 0;
-        width: 147.5px;
-        position: relative;
-        bottom: 111px;
-    }
-    .col-5 {
-        padding-left: 0;
-        padding-top: 2rem;
-        padding-right: 0;
-        margin-right: 15px;
-    }
-    #repo-links {
-        height: 89.72px;
-        width: 170px;
-        position: relative;
-        top: 32px;
-        padding-top: 15px;
-        font-size: .75rem;
-    }
-    #link-header {
-        position: relative;
-        bottom: 90px;
-    }
-}
-
-@media screen and (max-width: 411px) {
-    .project-header {
-        padding: 0;
-        width: 146.25px;
-        position: relative;
-        bottom: 110px;
-    }
-    .col-5 {
-        padding-left: 0;
-        padding-top: 2rem;
-        padding-right: 0;
-        margin-right: 15px;
-    }
-    #repo-links {
-        height: 89.97px;
-        width: 170px;
-        position: relative;
-        top: 32px;
-        padding-top: 15px;
-        font-size: .75rem;
-    }
-    #link-header {
-        position: relative;
-        bottom: 89px;
-    }
-}
-
-@media screen and (max-width: 375px) {
-    .project-header {
-        padding: 0;
-        width: 131.25px;
-        position: relative;
-        bottom: 93px;
-        font-size: .65rem;
-    }
-    .col-5 {
-        padding-left: 0;
-        padding-top: 2rem;
-        padding-right: 0;
-        margin-right: 15px;
-    }
-    #repo-links {
-        height: 80.75px;
-        width: 170px;
-        position: relative;
-        top: 32px;
-        padding-top: 15px;
-        font-size: .75rem;
-    }
-    #link-header {
-        position: relative;
-        bottom: 81.25px;
-    }
-}
-
-@media screen and (max-width: 360px) {
-    .project-header {
-        padding: 0;
-        width: 125px;
-        position: relative;
-        bottom: 89px;
-        font-size: .65rem;
-    }
-    .col-5 {
-        padding-left: 0;
-        padding-top: 2rem;
-        padding-right: 0;
-        margin-right: 15px;
-    }
-    #repo-links {
-        height: 76.89px;
-        width: 170px;
-        position: relative;
-        top: 32px;
-        padding-top: 15px;
-        font-size: .65rem;
-    }
-    #link-header {
-        position: relative;
-        bottom: 72px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .project-header {
-        padding: 0;
-        width: 108.33px;
-        position: relative;
-        bottom: 79px;
-        font-size: .65rem;
-    }
-    .col-5 {
-        padding-left: 0;
-        padding-top: 2rem;
-        padding-right: 0;
-        margin-right: 15px;
-    }
-    #repo-links {
-        height: 66.64px;
-        width: 170px;
-        position: relative;
-        top: 32px;
-        padding-top: 10px;
-        font-size: .65rem;
-    }
-    #link-header {
-        position: relative;
-        bottom: 68px;
-    }
-}
-
-@media screen and (max-width: 316px) {
-    .project-header {
-        padding: 0;
-        width: 107.5px;
-        position: relative;
-        bottom: 79px;
-        font-size: .65rem;
-    }
-    .col-5 {
-        padding-left: 0;
-        padding-top: 2rem;
-        padding-right: 0;
-        margin-right: 15px;
-    }
-    #repo-links {
-        height: 66.3px;
-        width: 170px;
-        position: relative;
-        top: 32px;
-        padding-top: 10px;
-        font-size: .65rem;
-    }
-    #link-header {
-        position: relative;
-        bottom: 68px;
-    }
-} */
 
 /* CONTACT SPECIFIC CSS */
 
