@@ -46,7 +46,8 @@ footer {
 }
 
 .card-title {
-    padding-left: 1rem;
+    padding: 0 1rem;
+    margin: 1.7rem 0;
 }
 
 .fixed-bottom {
@@ -156,6 +157,10 @@ p {
 
 #profilePic {
     padding-left: 0;
+}
+
+#test {
+    background-image: url("../images/papyrus-dark/papyrus-dark.png");
 }
 
 /* PORTFOLIO-SPECIFIC CSS */
