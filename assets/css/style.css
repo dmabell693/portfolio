@@ -151,16 +151,20 @@ p {
     padding-top: 2rem;
 }
 
-#profilePicCol {
+/* #profilePicCol {
     padding-left: 0;
 }
 
 #profilePic {
     padding-left: 0;
-}
+} */
 
 #index-container {
     background-image: url("../images/papyrus-dark/papyrus-dark.png");
+}
+
+#about-card {
+    max-width: 540px;
 }
 
 /* PORTFOLIO-SPECIFIC CSS */
